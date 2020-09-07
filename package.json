@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "coverage": "istanbul cover _mocha -- -R spec",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "author": "inbitcoin s.r.l.",
   "license": "Apache-2.0",
