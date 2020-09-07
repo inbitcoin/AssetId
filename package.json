@@ -1,6 +1,6 @@
 {
   "name": "cc-assetid-encoder",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Creates an Asset Id for Issuance transaction",
   "main": "assetIdEncoder.js",
   "directories": {
