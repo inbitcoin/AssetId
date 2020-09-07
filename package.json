@@ -11,7 +11,7 @@
     "coverage": "istanbul cover _mocha -- -R spec",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
-  "author": "thehobbit85",
+  "author": "inbitcoin s.r.l.",
   "license": "Apache-2.0",
   "keywords": [
     "colored coins",
@@ -20,12 +20,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Colored-Coins/AssetId.git"
+    "url": "https://github.com/inbitcoin/AssetId.git"
   },
   "dependencies": {
     "bitcoinjs-lib": "2.2.0",
     "bs58check": "1.0.8",
     "crypto-hashing": "0.3.1",
     "debug": "2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3",
+    "istanbul": "^0.4.5"
   }
 }
